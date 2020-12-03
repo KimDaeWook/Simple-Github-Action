@@ -4,5 +4,5 @@
 
 - uses: sukreshmanda/Simple-Github-Action@v1.0<br />
   with:<br />
-   who-to-wish: "supraj-amanda"<br />
+   who-to-wish: "sukresh-manda"<br />
   id: wish<br />
