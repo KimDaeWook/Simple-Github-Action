@@ -27,9 +27,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Create a file
-        run: touch simple.py
+        run: echo 'text here' >> README.md
       - name: git add simple.py
-        run: git add simple.py
+        run: git status
       - name: add email
         run: |
           git config --global user.email ${{ secrets.EMAIL}}
