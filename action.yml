@@ -1,0 +1,15 @@
+name: "Simple GitHub Action"
+description: "Simple GitHub Action for testing purpose"
+inputs:
+    who-to-wish:
+        description: "name to greet"
+        default: "Sukresh"
+outputs:
+    statement:
+        description: "string statement of greetings"
+runs:
+    using: node12
+    main: dist/index.js
+branding:
+    color: "yellow"
+    icon: "clock"
