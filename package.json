@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sukreshmanda/Simple-Github-Action/issues"
   },
-  "homepage": "https://github.com/sukreshmanda/Simple-Github-Action#readme"
+  "homepage": "https://github.com/sukreshmanda/Simple-Github-Action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6"
+  }
 }
