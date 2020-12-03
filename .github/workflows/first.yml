@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run git status
-        run: git status
+        run: git remote show origin
