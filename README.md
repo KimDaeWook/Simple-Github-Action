@@ -1,6 +1,6 @@
 # Simple-Github-Action
 
-####simply greet anyone by adding this action
+#### Simply greet anyone by adding this action
 
 - uses: sukreshmanda/Simple-Github-Action@v1.0
         with:
