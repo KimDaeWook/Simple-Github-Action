@@ -26,5 +26,11 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Run git status
-        run: git remote show origin
+      - name: Create a file
+        run: touch simple.py
+      - name: git add simple.py
+        run: git add simple.py
+      - name: git commit
+        run: git commit -m "adding simple.py"
+      - name: pushing to repo
+        run: git push origin main
