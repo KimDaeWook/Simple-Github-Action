@@ -1,4 +1,5 @@
 name: "Simple GitHub Action"
+author: "Sukresh Manda"
 description: "Simple GitHub Action for testing purpose"
 inputs:
     who-to-wish:
@@ -12,4 +13,4 @@ runs:
     main: dist/index.js
 branding:
     color: "yellow"
-    icon: "cloud"
+    icon: "wind"
