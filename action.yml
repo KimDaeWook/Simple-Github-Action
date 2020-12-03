@@ -12,4 +12,4 @@ runs:
     main: dist/index.js
 branding:
     color: "yellow"
-    icon: "clock"
+    icon: "cloud"
