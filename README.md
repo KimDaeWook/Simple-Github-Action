@@ -2,7 +2,7 @@
 
 #### Simply greet anyone by adding this action
 
-- uses: sukreshmanda/Simple-Github-Action@v1.0
-  with:
-   who-to-wish: "supraj-amanda"
-  id: wish
+- uses: sukreshmanda/Simple-Github-Action@v1.0<br />
+  with:<br />
+   who-to-wish: "supraj-amanda"<br />
+  id: wish<br />
