@@ -7,7 +7,7 @@
 - uses: sukreshmanda/Simple-Github-Action@v1.0
   with:
    who-to-wish: "sukresh-manda"
-  id: wish
+  id: <id>
 ```
 
 ## For taking output 
